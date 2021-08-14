@@ -1,0 +1,3 @@
+GCA_000313025.1_Staaur_19_genomic.fna
+GCA_000572245.1_MRSA12966_genomic.fna
+GCA_000577925.1_S2398D1_genomic.fna
