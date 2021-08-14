@@ -18,7 +18,7 @@ res1 <- ClustImpute(ds_mtx,nr_cluster=nr_cluster, nr_iter=nr_iter, c_steps=c_ste
 
 df <- ds_mtx#_add
 df$cluster <- paste0('c', res1$clusters)
-df1 <- cbind(df$cluster,df[,-1])
+df1 <- cbind(df$cluster,df)
 write.table(df1,file = "ds_mtx_M1_with-K2.txt",quote = F,sep="\t")
 
 
